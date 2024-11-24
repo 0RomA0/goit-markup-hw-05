@@ -558,6 +558,10 @@ gap: 24px;
 
 }
 
+.label-form-footer{
+    font-family: "Roboto", sans-serif;
+}
+
 .input-footer {
     padding-left: 16px;
     background-color: transparent;
@@ -592,6 +596,7 @@ gap: 24px;
     height: 40px;
     background-color: #4d5ae5;
 
+    font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
@@ -646,7 +651,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 
 
-.modal-button {
+.button-close {
 position: absolute;
 top: 24px;
 right: 24px;
@@ -665,16 +670,15 @@ border-radius: 50%;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover,
-.modal-button:focus {
-    fill: #ffffff;
-    background-color: #404bbf;
-    border: none;
+.button-close:hover,
+.button-close:focus {
+ background-color: #404BBF;
+ border: none;
 }
 
-.icon-close-black-form:hover,
-.icon-close-black-form:focus {
-    fill: #fff;
+.button-close:hover .icon-close-black-form,
+.button-close:focus .icon-close-black-form {
+     fill: #FFFFFF
 }
 
 .icon-close-black-form {
@@ -698,13 +702,12 @@ color: #2e2f42;
 }
 
 .div-form {
-    margin-bottom: 16px 
+    margin-bottom: 8px;
 
 }
 .label-form {
-    margin-bottom: 4px;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px; 
@@ -774,8 +777,7 @@ color: #2e2f42;
 
 
 
-input[type='checkbox']:checked + 
-.label-vector-text .span-vector-checkbox {
+input:checked + label > span {
     fill: #f4f4fd;
     border: none;
     background-color: #404bbf;
