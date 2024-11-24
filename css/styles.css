@@ -704,6 +704,7 @@ color: #2e2f42;
 .div-form {
     margin-bottom: 8px;
 
+
 }
 .label-form {
     display: block;
@@ -747,6 +748,10 @@ color: #2e2f42;
 
 .input-form:focus + .icon-form {
     fill: #4d5ae5;
+}
+
+.div-form-comment {
+    margin-bottom: 16px;
 }
 
 .input-form-textarea { 
