@@ -398,6 +398,7 @@
                             <label for="email">
                                 <input class="input-footer"
                                 id="email" 
+                                name="email"
                                 type="email" 
                                 placeholder="E-mail"></label>
                             <button type="submit" class="button-form-footer"> Subscribe 
@@ -409,24 +410,24 @@
                     </div>           
          </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
          <div class="modal">
  
             <button class="modal-button" type="button"> 
-                <svg class="icon-close-black-form" width="24" height="24" > 
+                <svg class="icon-close-black-form" width="8" height="8" > 
                 <use href="./images/icons.svg#icon-close-black"></use> </svg>
             </button>
             <p class="article-form">Leave your contacts and we will call you back</p>
-            
+
             <form class="form" name="review">
             <div class="div-form">
-                <label class="label-form" for="name"> Name </label>
+                <label class="label-form" for="user-name"> Name </label>
                 <div class="input-form-div">
                 <input 
                 class="input-form" 
-                id="name"
+                id="user-name"
                 type="text" 
-                name="name"> 
+                name="user-name"> 
                 <svg class="icon-form" width="18" height="24"> 
                     <use href="./images/icons.svg#icon-person"></use> </svg>
                 </div>
@@ -446,37 +447,38 @@
             </div>
 
             <div class="div-form">
-                <label class="label-form" for="email"> Email </label>
+                <label class="label-form" for="user-email"> Email </label>
                 <div class="input-form-div">
                 <input 
                 class="input-form" 
-                id="email"
+                id="user-email"
                 type="email" 
-                name="email"> 
+                name="user-email"> 
                 <svg class="icon-form" width="18" height="24"> 
                     <use href="./images/icons.svg#icon-email"></use> </svg>
                 </div>
             </div>
 
             <div class="div-form">
-                <label class="label-form" for="comment"> Comment </label>
+                <label class="label-form" for="user-comment"> Comment </label>
                
                 <textarea 
                 class="input-form-textarea" 
-                id="comment"
-                type="text" 
-                name="comment" placeholder="Text input"></textarea>
+                id="user-comment"
+               
+                name="user-comment" 
+                placeholder="Text input"></textarea>
             </div>
         
             <div class="div-vector">
                 <input 
                 class="visually-hidden" 
-                id="vector"
+                id="user-privacy"
                 type="checkbox" 
-                name="vector"> 
-                <label class="label-vector-text" for="vector"> 
+                name="user-privacy"> 
+                <label class="label-vector-text" for="user-privacy"> 
                 <span class="span-vector-checkbox"> 
-                    <svg class="vector-checkbox-icon" width="10" height="10"> 
+                    <svg class="vector-checkbox-icon" width="10" height="8"> 
                         <use href="./images/icons.svg#icon-Vector"></use> </svg>
                 </span>
                  I accept the terms and conditions of the 
